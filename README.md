@@ -1,3 +1,7 @@
+# hocam burda tekrar sayıalrı ile ilgilenmediğimiz biliyorum ama kodu yazmıştım bir sonraki branc'da istediğimz formatta çıktı veren kod bulunmakta 
+
+
+
 from Bio import SeqIO
 from collections import Counter
 import csv
