@@ -1,5 +1,5 @@
 # info-bitirme-allergen
-# hocam burda tekrar sayıalrı ile ilgilenmediğiz için en son tekrar sayıları olmadan ve bir aeq tekara etmeden 9-merler oluşşturan kod
+# hocam burda tekrar sayıalrı ile ilgilenmediğiz için en son tekrar sayıları olmadan ve bir aeq tekara etmeden 9-merler oluşturan kod
 
 
 from Bio import SeqIO
