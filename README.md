@@ -1,5 +1,4 @@
 from Bio import SeqIO
-
 from collections import Counter
 import csv
 
@@ -75,6 +74,7 @@ def main():
     negative_motifs = process_fasta_file(negative_file)
     sorted_negative_motifs = sorted(negative_motifs.items(), key=lambda x: x[1], reverse=True)
 
+    # Çıktıları yazma
     write_output(sorted_positive_motifs, positive_output_fasta, positive_output_csv)
     write_output(sorted_negative_motifs, negative_output_fasta, negative_output_csv)
 
